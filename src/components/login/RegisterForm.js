@@ -40,7 +40,7 @@ const RegisterForm = () => {
 
   try {
     const response = await axios.post(
-      'http://localhost:5000/graphql',
+      'https://my-fullstack-app-95hi.onrender.com',
       { query, variables },
       {
         headers: {
