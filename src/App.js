@@ -14,10 +14,11 @@ function App() {
     <Router>
       <ChatProvider>
         <Routes>
-          <Route path="/" element={<Main />} />
+         
           <Route path="/register" element={<RegisterForm />} />
           <Route path="/otp" element={<Otp />} />
           <Route path="/login" element={<Login />} />
+           <Route path="/" element={<Main />} />
           <Route path="/chat" element={<ChatPage />} />
           <Route path="/profile" element={<ProfilePage />} />
         </Routes>
